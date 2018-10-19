@@ -1,0 +1,43 @@
+{
+  "name": "webpacklearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build/build.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "element-ui": "^2.4.6",
+    "node-sass": "^4.9.3",
+    "ora": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "vue-router": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "follow-redirects": "^1.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-import": "^11.0.0",
+    "postcss-url": "^7.2.1",
+    "prettier": "^1.14.2",
+    "style-loader": "^0.20.1",
+    "url-loader": "^1.1.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-cli": "^3.1.2"
+  }
+}
